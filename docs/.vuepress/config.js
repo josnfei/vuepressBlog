@@ -1,6 +1,7 @@
 module.exports = {
   title: '个人主页',
   description: 'Personal Website',
+  base: '/', // 部署到github相关的配置
   head: [ // 注入到当前页面的 HTML <head> 中的标签
     ['link', {
       rel: 'icon',
@@ -27,8 +28,7 @@ module.exports = {
       cotent: '0'
     }]
   ],
-  // serviceWorker: true, // 是否开启 PWA
-  base: '/', // 部署到github相关的配置
+  serviceWorker: true, // 是否开启 PWA
   markdown: {
     lineNumbers: true // 代码块是否显示行号
   },
