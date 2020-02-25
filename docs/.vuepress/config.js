@@ -38,7 +38,7 @@ module.exports = {
     sidebarDepth: 1,
     nav: [ // 导航栏配置
       {
-        text: '前端基础',
+        text: '前端基础1',
         link: '/accumulate/'
       },
       {
